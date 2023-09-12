@@ -5,16 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fruits Shops</title>
-  <!-- favicon -->
+  <!-- fav_icon -->
   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-  <!-- Tailwind and Daisy Ui -->
+  <!-- Tailwind & Daisy Ui -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Google font Lato -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-  <!-- Font awesome icon kit -->
+  <!-- Font awesome kit -->
   <script src="https://kit.fontawesome.com/93f245bc2f.js" crossorigin="anonymous"></script>
   <!-- Tailwind custom classes -->
   <script>
@@ -41,7 +40,7 @@
 <body class="fontlato">
 
   <head id="Home">
-    <!-- Nav bar section -->
+    <!-- Navbar_section -->
     <section class=" w-4/5 mx-auto">
       <div
         class="navbar flex lg:space-x-40 justify-center bg-none lg:bg-golapi text-black lg:text-white rounded-[600px]  my-12  ">
@@ -83,10 +82,10 @@
         </div>
       </div>
     </section>
-    <!-- banner section -->
+    <!-- banner_section -->
     <section id="AllFruits" class="w-4/5 mx-auto">
       <div class="carousel w-full">
-        <!-- slider one -->
+        <!-- slider_1 -->
         <div id="slide1"
           class="carousel-item relative w-full bg-cover bg-center bg-no-repeat h-[450px] bg-blend-overlay"
           style="background-image: url(./images/banner1.png);">
@@ -104,7 +103,7 @@
             <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
           </div>
         </div>
-        <!-- slider two -->
+        <!-- slider_2 -->
         <div id="slide2"
           class="carousel-item relative w-full bg-cover bg-center bg-no-repeat h-[450px] bg-blend-overlay"
           style="background-image: url(./images/banner2.png);">
@@ -122,7 +121,7 @@
             <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
           </div>
         </div>
-        <!-- slider three -->
+        <!-- slider_3 -->
         <div id="slide3"
           class="carousel-item relative w-full bg-cover bg-center bg-no-repeat h-[450px] bg-blend-overlay"
           style="background-image: url(./images/banner3.png);">
@@ -140,7 +139,7 @@
             <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
           </div>
         </div>
-        <!-- slider four -->
+        <!-- slider_4 -->
         <div id="slide4"
           class="carousel-item relative w-full bg-cover bg-center bg-no-repeat h-[450px] bg-blend-overlay"
           style="background-image: url(./images/banner4.png);">
@@ -163,27 +162,27 @@
       <!-- floating part under banner -->
       <div
         class="w-[900px]  bg-white rounded-xl shadow-[#0000000d] shadow-md  gap-4 justify-center text-center mx-auto absolute left-[190px] top-[550px] p-5 hidden lg:flex">
-        <!-- fruit one -->
+        <!-- fruit_1 -->
         <div>
           <img src="./images/fruit1.png" alt="">
           <a class="cursor-pointer">Grapes</a>
         </div>
-        <!-- fruit two -->
+        <!-- fruit_2 -->
         <div>
           <img src="./images/fruit2.png" alt="">
           <p>Orange</p>
         </div>
-        <!-- fruit three -->
+        <!-- fruit_3 -->
         <div>
           <img src="./images/fruit3.png" alt="">
           <p>Mango</p>
         </div>
-        <!-- fruit four -->
+        <!-- fruit_4 -->
         <div>
           <img src="./images/fruit4.png" alt="">
           <p>Strawberry</p>
         </div>
-        <!-- fruit five -->
+        <!-- fruit_5 -->
         <div>
           <img src="./images/fruit5.png" alt="">
           <p>Pomegranate</p>
@@ -192,17 +191,17 @@
     </section>
   </head>
   <main>
-    <!-- Deal of the day section -->
+    <!-- Deal_section -->
     <section id="Shop" class="w-4/5 mx-auto">
       <!-- Deal of the section upper part -->
       <div class="flex flex-col justify-center text-center lg:flex-row space-x-0 lg:space-x-28 mt-5 lg:mt-56">
-        <!-- Deal of the section text -->
+        <!-- Deal_section_text -->
         <div>
           <h1 class="font-extrabold text-[#121212] text-4xl mb-6">Deal of the day</h1>
           <p class="text-sm font-medium text-center">Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <!-- Deal of the section clock -->
+        <!-- Deal_section_clock -->
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-10 font-extrabold pl-10 md:pl-56 lg:pl-0">
           <div class="flex flex-col">
             <span class="countdown fontlato text-4xl">
@@ -230,9 +229,9 @@
           </div>
         </div>
       </div>
-      <!-- Deal of the section cart part -->
+      <!-- Deal_section_cart_part -->
       <div class="my-10 flex flex-col lg:flex-row gap-6">
-        <!-- cart one -->
+        <!-- cart_1-->
         <div class="card w-96 bg-[#FFF] shadow-md cursor-pointer">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -256,7 +255,7 @@
             <button class="btn btn-ghost text-golapi mt-3 normal-case" onclick="my_modal_1.showModal()">Details</button>
           </div>
         </div>
-        <!-- modal view for cart one -->
+        <!-- modal_view_cart_1 -->
         <dialog id="my_modal_1" class="modal">
           <form method="dialog" class="modal-box">
             <div class="card w-full bg-[#FFF] shadow-md cursor-pointer">
@@ -283,14 +282,14 @@
                   <button class="btn btn-ghost text-white mt-6 normal-case bg-golapi"
                     onclick="my_modal_1.showModal()">Buy Now</button>
                   <div class="modal-action">
-                    <!-- if there is a button in form, it will close the modal -->
+                    <!-- close_btn_of_modal -->
                     <button class="btn btn-outline border-golapi text-golapi">Close</button>
                   </div>
                 </div>
           </form>
         </dialog>
 
-        <!-- cart two -->
+        <!-- cart_2 -->
         <div class="card w-96 bg-[#FFF] shadow-md cursor-pointer">
           <figure class="px-10 pt-10">
             <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
@@ -314,7 +313,7 @@
             <button class="btn btn-ghost text-golapi mt-3 normal-case" onclick="my_modal_2.showModal()">Details</button>
           </div>
         </div>
-        <!-- modal view for cart two -->
+        <!-- modal_cart_2 -->
         <dialog id="my_modal_2" class="modal">
           <form method="dialog" class="modal-box">
             <div class="card w-full bg-[#FFF] shadow-md cursor-pointer">
@@ -341,13 +340,13 @@
                   <button class="btn btn-ghost text-white mt-6 normal-case bg-golapi"
                     onclick="my_modal_2.showModal()">Buy Now</button>
                   <div class="modal-action">
-                    <!-- if there is a button in form, it will close the modal -->
+                    <!--  close_btn_of_modal -->
                     <button class="btn btn-outline border-golapi text-golapi">Close</button>
                   </div>
                 </div>
           </form>
         </dialog>
-        <!-- cart three -->
+        <!-- cart_3 -->
         <div class="card w-96 bg-[#FFF] shadow-md cursor-pointer">
           <figure class="px-10 pt-10">
             <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
@@ -371,7 +370,7 @@
             <button class="btn btn-ghost text-golapi mt-3 normal-case" onclick="my_modal_3.showModal()">Details</button>
           </div>
         </div>
-        <!-- modal view for cart three -->
+        <!-- modal_view_cart_3 -->
         <dialog id="my_modal_3" class="modal">
           <form method="dialog" class="modal-box">
             <div class="card w-full bg-[#FFF] shadow-md cursor-pointer">
@@ -398,7 +397,7 @@
                   <button class="btn btn-ghost text-white mt-6 normal-case bg-golapi"
                     onclick="my_modal_3.showModal()">Buy Now</button>
                   <div class="modal-action">
-                    <!-- if there is a button in form, it will close the modal -->
+                    <!-- close_btn_of_modal -->
                     <button class="btn btn-outline border-golapi text-golapi">Close</button>
                   </div>
                 </div>
@@ -428,7 +427,7 @@
             <button class="btn btn-ghost text-golapi mt-3 normal-case" onclick="my_modal_4.showModal()">Details</button>
           </div>
         </div>
-        <!-- modal view for cart four -->
+        <!-- modal_view_cart_4 -->
         <dialog id="my_modal_4" class="modal">
           <form method="dialog" class="modal-box">
             <div class="card w-full bg-[#FFF] shadow-md cursor-pointer">
@@ -455,7 +454,7 @@
                   <button class="btn btn-ghost text-white mt-6 normal-case bg-golapi"
                     onclick="my_modal_4.showModal()">Buy Now</button>
                   <div class="modal-action">
-                    <!-- if there is a button in form, it will close the modal -->
+                    <!-- close_btn_of_modal -->
                     <button class="btn btn-outline border-golapi text-golapi">Close</button>
                   </div>
                 </div>
@@ -466,7 +465,7 @@
         <button class="btn btn-neutral font-extrabold capitalize border-none bg-golapi">Shop All</button>
       </div>
     </section>
-    <!-- Meet the team section -->
+    <!-- team_section -->
     <section id="About" class="w-4/5 mx-auto mt-10">
       <div class="hero h-auto flex flex-col gap-0 lg:grid lg:h-[650px] mb-10 bg-no-repeat"
         style="background-image: url(./images/team.png);">
@@ -479,9 +478,9 @@
             </p>
           </div>
         </div>
-        <!-- team section photo -->
+        <!-- team_section_photo -->
         <div class="mt-auto lg:mt-40 flex flex-col lg:flex-row gap-0">
-          <!-- member one -->
+          <!-- member_1 -->
           <div class="card pt-5 shadow-xl text-white">
             <figure class="px-10 pt-10">
               <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
@@ -496,7 +495,7 @@
               </div>
             </div>
           </div>
-          <!-- member two -->
+          <!-- member_2-->
           <div class="card  pt-5 shadow-xl text-white">
             <figure class="px-10 pt-10">
               <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
@@ -511,7 +510,7 @@
               </div>
             </div>
           </div>
-          <!-- member three -->
+          <!-- member_3 -->
           <div class="card pt-5 shadow-xl text-white">
             <figure class="px-10 pt-10">
               <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
@@ -526,7 +525,7 @@
               </div>
             </div>
           </div>
-          <!-- member four -->
+          <!-- member_4 -->
           <div class="card pt-5 shadow-xl text-white">
             <figure class="px-10 pt-10">
               <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
@@ -589,7 +588,7 @@
         <div class="p-5 ">
           <img src="./images/whychoose1.png" alt="">
         </div>
-        <!-- RIGHT SIDE -->
+        <!-- right side -->
         <div class="text-center lg:text-right">
           <!-- right one -->
           <div class="flex mb-0 lg:mb-6 flex-col-reverse lg:flex-row">
@@ -623,7 +622,7 @@
     </section>
   </main>
   <footer>
-    <!-- footer section -->
+    <!-- footer_section -->
     <section class="w-full mx-auto">
       <footer class="footer footer-center p-10 bg-black text-white text-base-content rounded">
         <div class="flex">
