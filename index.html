@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit-Burst</title>
-</head>
-<body>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- Tailwind and Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Font awesome icon kit -->
+    <script src="https://kit.fontawesome.com/93f245bc2f.js" crossorigin="anonymous"></script>
+    <!-- Tailwind custom class -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                golapi: '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- custom styles -->
+    <style>
+        .fontlato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
     
-</body>
+</head>
+<body class="fontlato">
+    <head id="Home">
+        <!-- Nav-bar section -->
+        <section class=" w-4/5 mx-auto">
+    <div class="navbar flex lg:space-x-40 justify-center bg-none lg:bg-golapi text-black lg:text-white rounded-[600px]  my-12  ">
+                <div class="navbar-center flex">
+                  <ul class="menu menu-horizontal mt-24 lg:mt-0 px-1 fixed lg:relative  flex-col lg:flex-row text-white bg-golapi rounded-2xl hidden lg:flex ">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Shop"  >Shop</a></li>
+                    <li><a href="#AllFruits">All Fruits</a></li>
+                  </ul>
+                </div>
+                <div>
+                    <img src="./images/logo.png" alt="">
+                <a class="btn btn-ghost text-2xl" >Fruit Burst</a>
+                </div>
+                <div class="dropdown absolute right-[70px] visible lg:invisible">
+                    <label tabindex="0" class="btn m-1 bg-none border-none text-black">
+                        <i class="fa-solid fa-bars fa-xl" style="color: #000; background: none;"></i>
+                    </label>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu shadow bg-golapi rounded-box w-28 text-white">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About Us</a></li>
+                        <li><a href="#Shop">Shop</a></li>
+                        <li><a href="#AllFruits">All Fruits</a></li>
+                    </ul>
+                  </div>
+                <div class="form-control">
+                    <div class=" invisible lg:visible ">
+                      <input type="text" placeholder="Search here" class=" input rounded-[600px] text-black" />
+                      <button class="btn btn-square bg-white absolute right-40 rounded-[600px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                    </div>
+                  </div>
+              </div>
+        </section>
+ 
 </html>
